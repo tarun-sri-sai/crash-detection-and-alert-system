@@ -15,7 +15,7 @@
 1. Go to `Tools` &rarr; `Boards` &rarr; `Boards Manager`.
 1. Type ESP32 and install _esp32_ by _Espressif Systems_.
 
-_Note: Install the respective libraries given in `GISMO-6/Introduction.pptx`_
+_Note: Install the respective libraries given in `GISMO6-Docs/Introduction.pptx`_
 
 ### Phase 3: Programming ESP32 with Arduino
 
