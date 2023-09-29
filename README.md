@@ -10,7 +10,7 @@
 
 ### Phase 2: Setting up IDE
 
-1. Go to `Files` &rarr; `Preferences`.
+1. Go to `File` &rarr; `Preferences`.
 1. Enter [this url](https://dl.espressif.com/dl/package_esp32_index.json) into the _Additional Boards Manager URLS:_ dialog box.
 1. Go to `Tools` &rarr; `Boards` &rarr; `Boards Manager`.
 1. Type ESP32 and install _esp32_ by _Espressif Systems_.
@@ -35,6 +35,6 @@ _Note: Serial Monitor should be set to 115200 baud for serial messages._
 1. Copy the Firebase URL into _Firebase URL_ (including https://) in the Firebase component.
 1. Copy the Firebase secret into _Firebase Token_ in the Firebase component.
 
-_Note: After installing libraries for Firebase and OLED Display, delete the folder `C:\Users\ADMIN\AppData\Local\Arduino15\libraries`_
+_Note: After installing libraries for Firebase and OLED Display, delete the folder `C:\Users\%USERNAME%\AppData\Local\Arduino15\libraries`_
 
 This is an updated public version of an older repository privatized due to a security vulnerability.
