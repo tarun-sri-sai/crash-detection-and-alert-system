@@ -1,6 +1,12 @@
-# Crash-Detection-and-Alert-System
+# Motorcycle Crash Detection and Alert System using IoT
 
-## Usage
+## Description
+
+This repository contains the program and the project files that can be used to deploy the Motorcycle Crash Detection and Alert System using IoT. It uses a GISMO-VI ESP-32 microcontroller paired with the MPU6050 accelerometer to detect a crash, Firebase to store the data related to crash and emergency contacts, and an Android app designed using Kodular to send the crash alert as well as allow user to edit their details.
+
+_Note: This is an updated public version of an older repository privatized due to a security vulnerability._
+
+## Developer Usage
 
 ### Phase 1: Downloading Arduino IDE
 
@@ -35,6 +41,4 @@ _Note: Serial Monitor should be set to 115200 baud for serial messages._
 1. Copy the Firebase URL into _Firebase URL_ (including https://) in the Firebase component.
 1. Copy the Firebase secret into _Firebase Token_ in the Firebase component.
 
-_Note: After installing libraries for Firebase and OLED Display, delete the folder `C:\Users\%USERNAME%\AppData\Local\Arduino15\libraries`_
-
-This is an updated public version of an older repository privatized due to a security vulnerability.
+_Note: After installing libraries for Firebase and OLED Display, delete the folder `C:\Users\%USERNAME%\AppData\Local\Arduino15\libraries`._
