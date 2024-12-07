@@ -95,7 +95,7 @@ void mpu_record()
 void WiFiInit()
 {
   pinMode(2, OUTPUT);
-  WiFi.begin(getenv("TARUN_HOTSPOT_NAME"), getenv("TARUN_HOTSPOT_PASSWORD"));
+  WiFi.begin(getenv("MY_HOTSPOT_NAME"), getenv("MY_HOTSPOT_PASSWORD"));
   Serial.print("Connecting to Wi-Fi");
   int counter = 0, COUNTER_LIMIT = 30;
   while (WiFi.status() != WL_CONNECTED)
@@ -118,7 +118,7 @@ void WiFiInit()
 
 void FirebaseInit()
 {
-  Firebase.begin(getenv("TARUN_FIREBASE_HOST"), getenv("TARUN_FIREBASE_AUTH"));
+  Firebase.begin(getenv("MY_FIREBASE_HOST"), getenv("MY_FIREBASE_AUTH"));
   Firebase.reconnectWiFi(true);
 }
 

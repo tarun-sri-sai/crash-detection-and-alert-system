@@ -14,7 +14,7 @@ void loop()
 void WiFiInit()
 {
   // Connecting to Wi-Fi network
-  WiFi.begin(getenv("TARUN_HOTSPOT_NAME"), getenv("TARUN_HOTSPOT_PASSWORD"));
+  WiFi.begin(getenv("MY_HOTSPOT_NAME"), getenv("MY_HOTSPOT_PASSWORD"));
   Serial.print("Connecting to Wi-Fi");
   while (WiFi.status() != WL_CONNECTED)
   {
